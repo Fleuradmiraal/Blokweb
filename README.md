@@ -40,10 +40,12 @@ https://drinkstelz.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Home pagina
+
 <img src="./images/stelz_home.jpg" width="375px" alt="Homepagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
+Over ons
+
 <img src="./images/stelz_overons.jpg" width="375px" alt="over ons">
  
 </details>
@@ -62,10 +64,7 @@ hier de naam van de pagina
 
 ### dynamisch deel (bijv menu): 
 <img src="images/Breakdown_overons.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
 </details>
-
-
 
 
 
