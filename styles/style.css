@@ -3,62 +3,155 @@
   box-sizing:border-box;  
 }
 
-
-:root  {
-  --button-green: #088901 ;
-  --white: #ffffff;
-  --darkblue: #1d2237; 
-  --fontsize-broodteksten: 14px;
-  --color-broodteksten: #000000; 
-  --header-background: #19233e;
+@font-face {
+  font-family: "Harmonia Sans", sans-serif;
+  src: url(fonts/HarmoniaSansProCyr-Regular.ttf);
+  font-weight: 900;
 }
 
-body {
+*, html {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+:root{
+  --background-header: #19233e;
+  --colorfont-header: white;
+  --colorbutton: #088901;
+  --tekst-light: white;
+  --tekst-dark: black;
+  --primary-font: 'Harmonia Sans';
+  --secundary-font: 'quicksand, sans-serif';
+  
+}
+
+/* css header */
+header {
+  background-color: var(--background-header);
+  color: var(--colorfont-header);
+  text-align: center;
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+}
+
+header p {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 20px;
+  color: var(--colorfont-header);
+}
+
+header nav {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  position: fixed;
+  top: 80px;
   width: 100%;
-  margin: 0px;
-  padding: 0px;
+}
+
+header nav img {
+  width: 100px;
+  margin: 10px auto ;
+}
+
+header nav img.shoppingcart {
+  width: 2em;
+}
+
+
+header ul {
+  width: 90px;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: center;
+}
+
+header ul li {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* css main */
+
+.producten {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ 
+}
+
+main img.product {
+  margin: 0px auto  ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+ul li a p {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  padding: 20px 35px;
+}
+
+
+p {
+  color: var(--tekst-dark);
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.buttona {
+  text-decoration: none;
+  color: var(--tekst-light);
+  
 }
 
 button {
-  background-color: var(--button-green);
-  text-decoration: none;
+  background-color: var(--colorbutton) ;
+  color: var(--tekst-light)  ;
   border: none;
   padding: 12px 30px;
-  margin: 20px 20px;
+  margin: 80px auto;
+  display: flex;
+  align-content: center;
+}
+
+/*--------------*/
+
+
+li {
+  list-style: none;
 }
 
 a {
   text-decoration: none;
-  color: var(--white);
 }
 
-p {
-  font-size: var(--fontsize-broodteksten);
-  color:var(--color-broodteksten)
-}
-
-header {
-  background-color: var(--header-background) ;
-}
-
-header p {
-  color: var(--white);
-  font-size: 14 px;
-  text-align: center;
-}
-
-img { 
-  width: 375px;
-}
-
-h1 { 
-  color: var(--darkblue);
-}
 
 h2 {
-  color: var(--darkblue);
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 1em;
+  color: #1d2237;
 }
 
 h3 {
-  color: var(--darkblue);
+  font-family: sans-serif;
+  letter-spacing: .1em;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 0.5em;
+  color: #1d2237;
 }
