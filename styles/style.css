@@ -5,8 +5,12 @@
 
 @font-face {
   font-family: "Harmonia Sans", sans-serif;
-  src: url(fonts/HarmoniaSansProCyr-Regular.ttf);
-  font-weight: 900;
+  src: url('../fonts/HarmoniaSansProCyr-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Avenir Next", sans-serif;
+  src: url('../fonts/AvenirNextLTPro-regular.otf');
 }
 
 *, html {
@@ -16,32 +20,35 @@
 }
 
 :root{
-  --background-header: #19233e;
+  --background-dark: #19233e;
   --colorfont-header: white;
   --colorbutton: #088901;
   --tekst-light: white;
   --tekst-dark: black;
-  --primary-font: 'Harmonia Sans';
-  --secundary-font: 'quicksand, sans-serif';
+  --primary-font: "Harmonia Sans", sans-serif;
+  --secundary-font: "Avenir Next", sans-serif;
   
 }
 
-/* css header */
+/* header */
 header {
-  background-color: var(--background-header);
+  background-color: var(--background-dark);
   color: var(--colorfont-header);
   text-align: center;
   font-family: var(--primary-font);
   text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header p {
   text-align: center;
-  font-family: sans-serif;
+  font-family: var(--secundary-font);
   font-weight: lighter;
   font-size: 14px;
   letter-spacing: 2px;
-  padding: 20px;
+  padding: 10px;
   color: var(--colorfont-header);
 }
 
@@ -50,9 +57,18 @@ header nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  position: fixed;
+  position: sticky;
   top: 80px;
   width: 100%;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  width: 1em  ;
+  margin: .5em;
 }
 
 header nav img {
@@ -60,26 +76,14 @@ header nav img {
   margin: 10px auto ;
 }
 
+
 header nav img.shoppingcart {
   width: 2em;
 }
 
 
-header ul {
-  width: 90px;
-  display: flex;
-  text-decoration: none;
-  list-style: none;
-  justify-content: center;
-}
 
-header ul li {
-  display: flex;
-  justify-content: center;
-}
-
-
-/* css main */
+/* main */
 
 .producten {
   display: grid;
@@ -94,7 +98,7 @@ main img.product {
 }
 
 ul li a p {
-  font-family: sans-serif;
+  font-family: var(--secundary-font);
   font-weight: lighter;
   font-size: 14px;
   padding: 20px 35px;
@@ -137,7 +141,7 @@ a {
 
 
 h2 {
-  font-family: sans-serif;
+  font-family: var(--primary-font);
   letter-spacing: 0.1em;
   font-size: 34px;
   text-align: center;
@@ -147,7 +151,7 @@ h2 {
 }
 
 h3 {
-  font-family: sans-serif;
+  font-family: var(--primary-font);
   letter-spacing: .1em;
   font-size: 14px;
   text-align: center;
@@ -155,3 +159,146 @@ h3 {
   padding-bottom: 0.5em;
   color: #1d2237;
 }
+/* ons verhaal */ 
+
+.onsverhaal  {
+  margin: 30px;
+}
+
+.onsverhaal p {
+  font-family: var(--secundary-font);
+  font-size: 14px;
+  text-align: left;
+}
+
+.onsverhaal h2 {
+  font-family: var(--primary-font);
+  text-align: left;
+  margin-top: .2em;
+}
+
+.onsverhaal button {
+  text-align: left;
+  display: inline-block;
+  margin-top: 20px;
+}
+/* Kleding */ 
+
+.kleding { 
+  display: grid;
+  grid-template-columns: 50%;
+}
+
+.kleding a {
+  padding: 1.5em;
+  font-family: var(--secundary-font);
+  font-weight: lighter;
+  font-size: 14px;
+  margin-bottom: 2em;
+}
+
+/* Stelz bij jou in de buurt? */ 
+
+main .indebuurt {
+  background-color: var(--background-dark);
+  padding: 3em 0;
+  margin-bottom: 3em;
+}
+
+main .indebuurt h2 {
+  color: var(--tekst-light);
+  font-family: var(--primary-font);
+}
+
+
+main .indebuurt p {
+  color: var(--tekst-light);
+  font-family: var(--secundary-font);
+  font-size: 14px;;
+  padding: 0 1em;
+}
+
+main .indebuurt button {
+  margin-bottom: 0;
+  margin-top: 2em;
+}
+
+/* socialmedia ---------------------------*/ 
+ 
+.socialmediafotos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: .5em;
+  margin: 0px 2em 4em 2em;
+
+}
+
+/* footer--------------------------------- */
+
+footer {
+  background-color: var(--background-dark);
+  padding: 1em;
+}
+
+footer h3 {
+  color: var(--tekst-light);
+  text-align: left;
+  padding-top: 1em;
+  font-size: 14px;
+  font-family: var(--primary-font);
+  padding-top: 40px;
+}
+
+footer p {
+  color: var(--tekst-light);
+  text-align: left;
+  padding: .8em .0em;
+  font-size: 14px;
+  font-family: var(--secundary-font);
+}
+
+footer .minderjarig {
+  font-style: italic;
+  
+}
+
+footer a {
+  color: var(--tekst-light);
+  text-align: left;
+  font-size: 14px;
+}
+
+footer .firstWord {
+  font-weight: bold;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  width: 20px;
+  margin: 10px;
+}
+
+footer input {
+  width: 70%;
+  padding: 15px ;
+  margin: 20px 30px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid white;
+  color: var(--tekst-light);
+}
+
+footer form {
+  display: flex;
+}
+
+footer form img {
+  width: 20px ;
+  height: 20px;
+  margin-top: 35px;
+}
+
+/* footer end --------------------------------- */

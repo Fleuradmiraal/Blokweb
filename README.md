@@ -74,7 +74,7 @@ Over ons
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik vond het moeilijk waar ik moest beginnen. Ik Begon te kijken naar de breakdownschetsen dit heeft mij erg geholpen. Hierna ben ik begonnen aan de HTML. Hierdoor wist ik waar ik moest beginnen. 
 
 
 ### Agenda voor meeting
@@ -90,8 +90,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
+- punt 1 : Gebruik de Wildcard selecter * Hierdoor kan je de padding en margin gemakkelijk van het hele bestand 0 zetten.
+- punt 2 : 
 - nog een punt
 - ...
 
@@ -139,31 +139,30 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <details>
 <summary>uitwerken na test in 8e voortgang</summary>
 
-### Bevindingen
+### Bevindingen Zicht
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Titel eerste bevinding Central field loss
+Het is te lezen. De 14px teksten zijn moeilijk te lezen. 
 
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Titel tweede bevinding Blur/Glare Cataract 
+De headings zijn makkelijk te lezen. De prijzen onder de Stëlz producten zijn niet te lezen. De broodteksten zijn ook moeilijk te lezen. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Titel volgende bevinding Low Contrast
+Het contrast is overal goed. Alle teksten zijn duidelijk en goed te lezen. De buttons zijn ook goed te zien en te lezen. 
 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Titel nog een bevinding Peripheral Field Loss
+Het kost veel energie omdat je veel je hoofd moet bewegen. Wel alles is leesbaar. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Titel nog een bevinding Peripheral Field Loss
+Het kost veel energie omdat je veel je hoofd moet bewegen. Wel alles is leesbaar. 
+
+### Bevindingen Motoriek
+
+#### Titel nog een bevinding Gebroken hand/ Elastiekje om hand
+De website is goed te bedienen. 
 
 </details>
 
