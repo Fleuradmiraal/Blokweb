@@ -10,9 +10,8 @@
 	
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
 
-
-	</head>
 <body>
 	<header>
 		<ul class="socialicons">
@@ -23,20 +22,33 @@
 		</ul>
 			<p>volg ons op instagram!</p>
 			<nav>
-			<div class="hamburger">
-				<div></div>
-				<div></div>
-				<div></div>
-			</div>
+				<button class="ham">
+					<!-- X and menu icon SVGs from material icons https://material.io/resources/icons/ -->
+					<span class="menuIcon material-icons">
+					  menu
+					</span>
+					<span class="xIcon material-icons">
+					  close
+					</span>
+				  </button>
+				  <ul class="menu">
+					<li><a class="menuLink" href="#">Home</a></li>
+					<li><a class="menuLink" href="#">Profile</a></li>
+					<li><a class="menuLink" href="#">About</a></li>
+					<li><a class="menuLink" href="#">Contacts</a></li>
+				  </ul>
 				<img src="./images/logo.png" alt="">
 				<img class="shoppingcart" src="./images/shoppingcart.png" alt="">
 			</nav>
 	</header>
+
 	<main>
+
 		<section>
 			<img src="./images/stelz_hp_1.jpg" alt="stelz_hp_1">
-			<button type="button"><a class="buttona" href="">Shop</a></button>
+			<a class="buttona" href="#">Shop</a>
 		</section>
+
 		<section>
 			<h3>Probeer nu</h3>
 			<h2>Stëlz hard seltzer</h2>
@@ -48,23 +60,28 @@
 				<li> <a href="#"><img class="product" src="images/stelz-hard-seltzer-lime-stelz-hard-seltzer-213865_150x.jpeg" alt="stëlz lime"><p>Stëlz hard seltzer lime vanaf €7.50</p></a> </li>
 			</ul>
 		</section>
+
 		<section  class="onsverhaal">
 			<img src="images/JOURNEY_900x.png" alt="journey">
 			<h2>Ons verhaal</h2>
 			<p>Ontstaan uit de behoefte om bewuster én frisser te drinken. Met STËLZ willen we de consument de mogelijkheid geven om te genieten van een drankje, maar dan wel simpel en zuiver. Een blikje STËLZ (250 ml) bevat: 63 kcal / vet 0 gr / koolhydraten 0 gr / suiker 0 gr / eiwitten 0 gr / zout 0 gr. Het resultaat is helder, verfrissend en zeer goed doordrinkbaar. Onze hard seltzer is daarmee het perfecte alternatief voor zwaardere of zoetere producten zoals wijn, bier of cocktails.</p>
-			<button type="button"><a class="buttona" href="overons.html">Meer over STËLZ</a></button>
+			<a class="buttona" href="overons.html">Meer over STËLZ</a>
 		</section>
+
 		<section class="unrobe">
 			<img src="images/unrobe.png" alt="banner monica">
 		</section>
+
 		<section class="kleding">
 			<a href=""><img src="images/Socks1_600x.jpeg" alt=""><p>Socks STËLZ - White €6.95</p></a>
 		</section>
+
 		<section class="indebuurt" >
 			<h2>STËLZ bij jou in de buurt?</h2>
 			<p>Wij zijn ook verkrijgbaar bij Albert Heijn, Gall & Gall, Crisp, Picnic, STACH, Boons, en nog veel meer. Kijk of we bij jou in de buurt liggen!</p>
-			<button type="button"><a class="buttona" href="">Zoek verkooppunten!</a></button>
+			<a class="buttona" href="">Zoek verkooppunten!</a>
 		</section>
+
 		<section >
 			<h2>@STELZ_INT</h2>
 				<ul class="socialmediafotos">
@@ -78,13 +95,15 @@
 					<li> <a href="#"><img src="./images/socialmedia8.png" alt="stëlz "></a> </li>
 				</ul>
 		</section>
+
 		<section>
-			<ul class="slideshow">
-				<li class="slide0"> <a href="#"><h3>Word lid van onze community</h3> </a> </li>
-				<li class="slide1"> <a href="#"><h3>Vandaag besteld, volgende werkdag in huis</h3> </a> </li>
-				<li class="slide2"> <a href="#"><h3>Altijd een winkel bij jouw in de buurt</h3> </a> </li>
-			</ul>
+			<div class="slideshow">
+				<h3 class="slides">Word lid van onze community</h3>
+				<h3 class="slides">Vandaag besteld, volgende werkdag in huis</h3>
+				<h3 class="slides">Altijd een winkel bij jouw in de buurt</h3>
+			</div>
 		</section>
+
 	</main>
 	<footer>
 		<h3>Vragen?</h3>
