@@ -1,27 +1,44 @@
 // JavaScript Document
-var menu = document.querySelector(".menu")
-var ham = document.querySelector(".ham")
-var xIcon = document.querySelector(".xIcon")
-var menuIcon = document.querySelector(".menuIcon")
 
-ham.addEventListener("click", toggleMenu)
+const menu = document.querySelector(".menu");
+const menuItems = document.querySelectorAll(".menuItem");
+const hamburger= document.querySelector(".hamburger");
+const closeIcon= document.querySelector(".closeIcon");
+const menuIcon = document.querySelector(".menuIcon");
 
 function toggleMenu() {
   if (menu.classList.contains("showMenu")) {
     menu.classList.remove("showMenu");
-    xIcon.style.display = "none";
+    closeIcon.style.display = "none";
     menuIcon.style.display = "block";
   } else {
     menu.classList.add("showMenu");
-    xIcon.style.display = "block";
+    closeIcon.style.display = "block";
     menuIcon.style.display = "none";
   }
 }
 
-var menuLinks = document.querySelectorAll(".menuLink")
-
-menuLinks.forEach(
-  function (menuLink) {
-    menuLink.addEventListener("click", toggleMenu)
+hamburger.addEventListener("click", toggleMenu);
+menuItems.forEach( 
+  function(menuItem) { 
+    menuItem.addEventListener("click", toggleMenu);
   }
 )
+
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+console.log ("hallo")

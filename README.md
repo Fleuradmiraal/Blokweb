@@ -1,20 +1,4 @@
 # Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
-
-
-## Jij
-
-<details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
-
 ### Auteur:
 Fleur Admiraal
 
@@ -57,7 +41,6 @@ Over ons
 ## Breakdownschets (week 1)
 
 <details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
 <img src="images/Breakdown_home.jpg" width="375px" alt="breakdown van de hele pagina">
@@ -74,32 +57,15 @@ Over ons
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-Ik vond het moeilijk waar ik moest beginnen. Ik Begon te kijken naar de breakdownschetsen dit heeft mij erg geholpen. Hierna ben ik begonnen aan de HTML. Hierdoor wist ik waar ik moest beginnen. 
+Ik vond het moeilijk waar ik moest beginnen. Ik Begon te kijken naar de breakdownschetsen dit heeft mij erg geholpen. Hierna ben ik begonnen aan de HTML. Hierdoor wist ik waar ik moest beginnen. Ik kreeg een duidelijk beeld wat er precies in mijn HTML moest komen te staan wat ik erg fijn vond. 
 
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1 : Gebruik de Wildcard selecter * Hierdoor kan je de padding en margin gemakkelijk van het hele bestand 0 zetten.
-- punt 2 : 
-- nog een punt
-- ...
-
+### Feedback
+- Ga zo door met de HTML
+- Probeer volgende week alle HTML erin te hebben.
+- Probeer alle links alsnog in te vullen met bijvoorbeeld een # of gwn de Index.html zodat er wel door screenreaders doorheen gegaan kan worden.
+- Gebruik * als wildcart selector zodat je alles in een keer selectoren en zo de padding en margin standaard op 0 kan zetten. 
 </details>
-
-
-
-
 
 ## Voortgang 2 (week 3)
 
@@ -107,26 +73,14 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Was lekker op weg. Met sommige dingen had ik veel moeite met bijvoorbeeld de header fixed te krijgen. Dit kwam omdat het bovenste gedeelte niet fixed moest zijn. Ook de font downloaden had ik veel moeite mee uiteindelijk is het me gelukt ik miste een ' waardoor hij het niet deed. 
+
+### Feedback
 
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Doe de gehele header fixed. 
+- Je hebt nu a'tjes in buttons dit is niet te bedoeling stijl de a als een button. 
+- Je hebt ergens een li maar hier zit geen ul omheen pas dit aan. 
 
 </details>
 
@@ -140,26 +94,23 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen Zicht
-Lijst met je bevindingen die in de test naar voren kwamen:
-
-#### Titel eerste bevinding Central field loss
+#### Central field loss
 Het is te lezen. De 14px teksten zijn moeilijk te lezen. 
 
 
-#### Titel tweede bevinding Blur/Glare Cataract 
+#### Blur/Glare Cataract 
 De headings zijn makkelijk te lezen. De prijzen onder de Stëlz producten zijn niet te lezen. De broodteksten zijn ook moeilijk te lezen. 
 
-#### Titel volgende bevinding Low Contrast
+#### Low Contrast
 Het contrast is overal goed. Alle teksten zijn duidelijk en goed te lezen. De buttons zijn ook goed te zien en te lezen. 
 
 
-#### Titel nog een bevinding Peripheral Field Loss
+####  Peripheral Field Loss
 Het kost veel energie omdat je veel je hoofd moet bewegen. Wel alles is leesbaar. 
 
-#### Titel nog een bevinding Peripheral Field Loss
-Het kost veel energie omdat je veel je hoofd moet bewegen. Wel alles is leesbaar. 
 
 ### Bevindingen Motoriek
+Waarneer er bijvoorbeeld iets is met de motoriek bijvoorbeeld spamse is de website nog goed te bereiken doordat de knoppen niet te dicht bij elkaar staan wordt er niet snel mis geklikt. 
 
 #### Titel nog een bevinding Gebroken hand/ Elastiekje om hand
 De website is goed te bedienen. 
@@ -176,26 +127,15 @@ De website is goed te bedienen.
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Vond het nog steeds lastig en liep af en toe vast. Ik liep bijvoorbeeld vast met de slideshow. Hulp gevraagd en hierna lukte het me gemakkelijk om de slideshow erin te zetten. 
 
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+### Feedback 
 
 
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- haal je website door de w3validator zodat je snel ziet of je nog ergens foutmeldingen heb. 
+- Je hebt erg veel classes verander deze
+- Gebruik meer opmerkingen
 
 </details>
 
@@ -228,7 +168,7 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
+1. https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0 - Hamburger menu 
 2. bron 2
 3. ...
 
