@@ -153,8 +153,8 @@ Over het algemeen vond ik het erg moeilijk. Ik vind javascript erg lastig. De ht
 
 ### Screenshot(s)
 
-<img src="./images/eind.jpg" width="375px" alt="eind">
-<img src="./images/eind2.jpg" width="375px" alt="eind">
+<img src="./images/eind.png" width="375px" alt="eind">
+<img src="./images/eind2.png" width="375px" alt="eind">
 
 </details>
 
