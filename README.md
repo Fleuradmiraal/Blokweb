@@ -169,7 +169,5 @@ hier screenshot(s) van je eindresultaat
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0 - Hamburger menu 
-2. bron 2
-3. ...
-
+2. https://www.w3schools.com/howto/howto_js_collapsible.asp - Collapsible 
 </details>
