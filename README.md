@@ -149,11 +149,12 @@ Vond het nog steeds lastig en liep af en toe vast. Ik liep bijvoorbeeld vast met
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Over het algemeen vond ik het erg moeilijk. Ik vind javascript erg lastig. De html en css ging gelukkig wel wat beter. Naar mate de weken vorderde kwam ik er wel steeds meer in en als het dan lukte vond ik het ook erg leuk. 
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="./images/eind.jpg" width="375px" alt="eind">
+<img src="./images/eind2.jpg" width="375px" alt="eind">
 
 </details>
 
